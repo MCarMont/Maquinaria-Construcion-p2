@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script><!-- CHARTJS library -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
  	<title>Gestión de Maquinaria</title>
@@ -24,7 +25,7 @@
 	        Empleados
 	      </a>
 	      <div class="dropdown-menu">
-	        <a class="dropdown-item" href="#" name="Alta">Alta</a>
+	        <a class="dropdown-item" href="#" id="menuEmpleadoAlta" name="Alta">Alta</a>
 	        <a class="dropdown-item" href="#" name="Baja">Baja</a>
 	        <a class="dropdown-item" href="#" name="Modificar">Modificar</a>
 	        <a class="dropdown-item" href="#" name="Listar">Listar</a>
@@ -121,10 +122,29 @@
 	 <form action="#" id="frmBienvenida" name="frmBienvenida" class="pr-5 pl-5">
 	 	<h1>Bienvenido al programa de gestión de maquinaria industrial</h1>
 	 	<img src="imagenes/portada.jpg" class="img-fluid" alt="imagen de portada">
-
-
 	 </form>
+
+	<div id="formularios"></div>
+
+
+    <div id="resultado"></div>
+
+
+
+    <!--****************************** Archivos JS de Bootstrap ******************************-->
+
+   	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
 	  
+	<!--<script type="text/javascript" src="js/objetos.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
 
  </body>
  </html>
